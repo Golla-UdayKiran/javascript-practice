@@ -41,33 +41,6 @@
 
     <p class="js-message"></p>
 
-    <h2>Amazon</h2>
-
-    <!-- Answer is at the bottom. -->
-    <p>Amazon Shipping Calculator</p>
-
-    <h3>Amazon.com - America</h3>
-    <p>Orders under $40 = +$10 shipping.</p>
-    <p>Orders over $40 = FREE shipping.</p>
-    <input placeholder="Cost of order" class="js-cost-input-usd" onkeydown="
-      handleCostKeydownUSD(event);
-    ">
-    <button onclick="
-      calculateTotalUSD();
-    ">Calculate</button>
-    <p class="js-total-cost-usd"></p>
-
-    <h3>Amazon.in - India</h3>
-    <p>Orders under ₹3,505.20 = +₹876.30 shipping.</p>
-    <p>Orders over ₹3,505.20 = FREE shipping.</p>
-    <input placeholder="Cost of order" class="js-cost-input-inr" onkeydown="
-      handleCostKeydownINR(event);
-    ">
-    <button onclick="
-      calculateTotalINR();
-    ">Calculate</button>
-    <p class="js-total-cost-inr"></p>
-
     <input placeholder="Type something" class="js-input"
       onkeyup="
         const inputElement = document.querySelector('.js-input');
